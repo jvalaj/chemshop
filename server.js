@@ -8,10 +8,10 @@ import categoryRoutes from "./routes/categoryRoutes.js"
 import cors from 'cors';
 import productRoutes from "./routes/productRoutes.js"
 import paymentRoutes from "./routes/paymentRoutes.js"
-import * as path from 'path'
+import path from 'path';
 //configure env
 dotenv.config();
-
+const __dirname = path.resolve();
 
 //database config
 connectDB();
