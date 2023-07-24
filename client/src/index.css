@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  padding: 0px;
+  margin:0px;
+}
+body {
+  margin: 0;
+  font-family: Poppins;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* width */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0c3ee0;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #092da3;
+}
+
+#section1{
+  background-image: url(https://i.ibb.co/frhZ9PQ/a-picture-taken-in-between-two-lanes-with-racks-full-of-medecines-on-each-side-both-left-and-right-i.png);
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-position: top 0px center;
+  background-repeat: no-repeat;
+  background-color: rgb(105, 105, 105);
+}
+
+@media screen and (min-width: 769px) and (max-width: 1250px) {
+  #section1{
+    background-position: top 0px center !important;
+    background-size: 100%;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  #section1{
+    background-position: top 0px center !important;
+    background-size: cover;
+    
+  }
+}
+
+#cart-count{
+  content:attr(value);
+        font-size:10px;
+        color: #fff;
+     
+        border-radius:50%;
+        padding: 0 7px;
+        position:relative;
+        left:9px;
+        top:5px;
+        opacity:0.9;
+}
+
+#cart-count-phone{
+  content:attr(value);
+        font-size:10px;
+        color: #fff;
+     
+        border-radius:50%;
+        padding: 4px 7px;
+        position:relative;
+        left:10px;
+        top:5px;
+        opacity:0.9;
+}
+
+#swiperCategory{
+  padding:10px 0px 35px 10px!important;
+  box-shadow: none !important;
+}
+
+#bannerSwiper{
+  padding:45px 30px 50px 30px!important;
+  
+}
+
+#bannerSlide{
+  box-shadow: rgb(0, 106, 255) 5px 5px, rgb(56, 139, 255) 10px 10px, rgba(47, 134, 255, 0.709) 15px 15px, rgba(63, 143, 255, 0.452) 20px 20px, rgba(142, 189, 255, 0.466) 25px 25px;}
+#catBox{
+  
+}
+
+.swiper-button-prev {
+  color: rgb(70, 70, 70) !important; 
+  border: #fff;
+  border-radius: 100%;
+  background: #eeeeee67;
+  padding:32px 35px 32px 30px;
+  height: 1.5rem !important;
+}
+
+.swiper-button-next {
+  color: rgb(70, 70, 70) !important; 
+  border: #fff;
+  border-radius: 100%;
+  background: #eeeeee67;
+  padding:32px 30px 32px 35px;
+  height: 1.5rem !important;
+}
+
