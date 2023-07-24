@@ -8,6 +8,7 @@ import categoryRoutes from "./routes/categoryRoutes.js"
 import cors from 'cors';
 import productRoutes from "./routes/productRoutes.js"
 import paymentRoutes from "./routes/paymentRoutes.js"
+import path from 'path';
 //configure env
 dotenv.config();
 
@@ -27,6 +28,12 @@ app.use('/api/v1/auth', authRoutes)
 app.use('/api/v1/category', categoryRoutes)
 app.use('/api/v1/product', productRoutes)
 app.use('/api/v1/payment', paymentRoutes)
+
+//static files
+app.use(express.static(path.join(__dirname, "./client/build")))
+app.get("*", function (req, res) {
+    res.sendFile(path.join(__dirname, "./client/build/index.html"))
+})
 //rest api
 app.get("/", (req, res) => {
     res.send({
