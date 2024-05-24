@@ -35,7 +35,7 @@ const Navbar = () => {
                     <div className="flex items-center m-2 cursor-pointer" >
                         <Link className="flex items-center" to="/">
                             <img src="https://flowbite.com/docs/images/logo.svg" className="h-8 mr-3" alt="Flowbite Logo" />
-                            <span className="hidden sm:inline text-xl md:text-3xl font-semibold ">chemshop.</span>
+                            <span className="hidden sm:inline text-xl md:text-3xl font-semibold ">better-pharmacy.</span>
                         </Link>
                     </div>
 

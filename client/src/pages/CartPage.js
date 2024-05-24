@@ -144,7 +144,7 @@ const CartPage = () => {
       amount: data.amount * 100,
       currency: "INR",
       name: "Medecine Purchase",
-      description: `Paying ${data.amount} to chemshop.`,
+      description: `Paying ${data.amount} to better-pharmacy.`,
       image: "",
       order_id: data.id,
 
