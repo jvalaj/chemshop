@@ -35,14 +35,14 @@ const Navbar = () => {
                     <div className="flex items-center m-2 cursor-pointer" >
                         <Link className="flex items-center" to="/">
                             <img src="https://flowbite.com/docs/images/logo.svg" className="h-8 mr-3" alt="Flowbite Logo" />
-                            <span className="hidden sm:inline text-xl md:text-3xl font-semibold ">better-pharmacy.</span>
+                            <span className="hidden sm:inline text-xl md:text-3xl font-semibold ">ChemShop</span>
                         </Link>
                     </div>
 
                     <ul className='hidden text-sm md:text-md m-2 sm:flex sm:gap-8 '>
 
                         <li className="hover:text-blue-600 flex items-center transition ">
-                            <NavLink to="/allproducts">Book</NavLink>
+                            <NavLink to="/allproducts">Shop</NavLink>
                         </li>
 
                         {
@@ -295,7 +295,7 @@ const Navbar = () => {
                             }
                             <li>
                                 <NavLink onClick={handleNav} to="/allproducts">
-                                    Book
+                                    Shop
                                 </NavLink>
 
                             </li>
