@@ -42,7 +42,7 @@ const Navbar = () => {
                     <ul className='hidden text-sm md:text-md m-2 sm:flex sm:gap-8 '>
 
                         <li className="hover:text-blue-600 flex items-center transition ">
-                            <NavLink to="/allproducts">Shop</NavLink>
+                            <NavLink to="/allproducts">Book</NavLink>
                         </li>
 
                         {
@@ -295,7 +295,7 @@ const Navbar = () => {
                             }
                             <li>
                                 <NavLink onClick={handleNav} to="/allproducts">
-                                    Shop
+                                    Book
                                 </NavLink>
 
                             </li>
