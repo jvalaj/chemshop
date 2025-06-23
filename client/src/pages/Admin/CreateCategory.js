@@ -4,7 +4,7 @@ import toast from 'react-hot-toast'
 import axios from 'axios'
 import { useNavigate } from "react-router-dom";
 import { Modal } from 'antd'
-import { set } from 'mongoose'
+
 const CreateCategory = () => {
     const [categories, setCategories] = useState([])
     const [name, setName] = useState("")

@@ -136,11 +136,7 @@ const Navbar = () => {
                                 </div>
                             </NavLink>
                         </li>
-                        <li className="bg-green-100 p-2 rounded-lg transition flex items-center ">
-                            <a href="https://wa.me/919999513839" target="_blank" className="">
-                                <BsWhatsapp size={20} className="text-green-500" />
-                            </a>
-                        </li>
+
                     </ul>
 
                     <div className="sm:hidden flex items-center flex-row gap-2">
@@ -234,11 +230,7 @@ const Navbar = () => {
                                 )
                             }
                         </li>
-                        <li className={toggle ? 'hidden' : "bg-green-100 p-2 rounded-lg transition flex items-center "}>
-                            <a href="https://wa.me/919999513839" target="_blank" className="">
-                                <BsWhatsapp size={20} className="text-green-500" />
-                            </a>
-                        </li>
+
                         <div onClick={handleNav} className={toggle ? 'hidden' : 'transition cursor-pointer hover:text-blue-500 px-2 '}>
                             <AiOutlineMenu className='' size={22} />
                         </div>

@@ -179,12 +179,7 @@ const Search = () => {
                                     ? <div className="flex flex-col justify-center items-center">
                                         <div className="bg-red-100 rounded-lg p-2">
                                             <p className="text-xl">We are determined to fulfill your product needs. Give us a call today!</p>
-                                            <a href="https://wa.me/919999513839" target="_blank">
-                                                <button className="border hover:bg-gray-300 transition mx-auto text-green-500 flex border-green-500 p-2 rounded-lg text-lg">
-                                                    <BsWhatsapp size={20} className="mr-2 my-auto text-green-500" /> Whatsapp
-                                                </button>
 
-                                            </a>
                                         </div>
 
                                     </div>
